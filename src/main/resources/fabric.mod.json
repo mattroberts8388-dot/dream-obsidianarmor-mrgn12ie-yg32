@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "obsidianarmor",
+  "version": "${version}",
+  "name": "Obsidian Armor",
+  "description": "Adds a full obsidian armor set that grants fire resistance but slows movement, crafted from obsidian ingots smelted in a blast furnace.",
+  "authors": ["ObsidianArmor"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/obsidianarmor/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.obsidianarmor.ObsidianArmorMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
